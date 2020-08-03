@@ -218,6 +218,7 @@ module.exports = {
         "/{api_version}/rada/": 4,
         //tabelasSelecao
         "/{api_version}/tabelasSelecao/importar": [1, 3, 3.5, 4, 5, 6, 7],
+        "/{api_version}/tabelasSelecao/": [1, 3, 3.5, 4, 5, 6, 7],
         //tipologias
         "/{api_version}/tipologias": 4,
         //travessiaDeSintese
