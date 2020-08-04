@@ -254,6 +254,7 @@ module.exports = {
         "/{api_version}/entidades/:id/extinguir": 4,
         "/{api_version}/entidades/:id/": 4,
         //legislacao
+        "/{api_version}/legislacao/:id/revogar": 4,
         "/{api_version}/legislacao/:id": 4,
         //noticias
         "/{api_version}/noticias/:id": [4, 5, 6, 7],
