@@ -41,6 +41,8 @@ module.exports = {
         "/{api_version}/colaboracoes/exportar": [3.5, 4, 5, 6, 7],
         "/{api_version}/colaboracoes/:id/": 0,
         "/{api_version}/colaboracoes/": 0,
+        //contadores
+        "/{api_version}/contador/:codigo": 4,
         //docs
         "/{api_version}/docs": -1,
         //documentacaoCientifica
@@ -244,6 +246,8 @@ module.exports = {
         "/{api_version}/chaves/:id/atualizar": 7,
         //colaboracoes
         "/{api_version}/colaboracoes/:id/": [3.5, 4, 5, 6, 7],
+        //contadores
+        "/{api_version}/contador/:codigo": 4,
         //documentacaoCientifica
         "/{api_version}/documentacaoCientifica/:id": [3.5, 4, 5, 6, 7],
         //documentacaoApoio
