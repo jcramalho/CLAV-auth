@@ -268,6 +268,8 @@ module.exports = {
         "/{api_version}/pedidos": [3.5, 4, 5, 6, 7],
         //pendentes
         "/{api_version}/pendentes": [1, 3, 3.5, 4, 5, 6, 7],
+        //rada
+        "/{api_version}/rada/revogar/:id": 5,
         //tipologias
         "/{api_version}/tipologias/:id": 4,
         //users
