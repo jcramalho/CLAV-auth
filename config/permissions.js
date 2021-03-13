@@ -41,8 +41,8 @@ module.exports = {
         "/{api_version}/colaboracoes/exportar": [3.5, 4, 5, 6, 7],
         "/{api_version}/colaboracoes/:id/": 0,
         "/{api_version}/colaboracoes/": 0,
-        //contadores
-        "/{api_version}/contador/:codigo": 4,
+        //contador
+        "/{api_version}/contador/:codigo": 5,
         //docs
         "/{api_version}/docs": -1,
         //documentacaoCientifica
@@ -128,6 +128,7 @@ module.exports = {
         "/{api_version}/parametros/": 7,
         //pedidos
         "/{api_version}/pedidos/:codigo": [1, 3, 3.5, 4, 5, 6, 7],
+        "/{api_version}/pedidos/meta": [1, 3, 3.5, 4, 5, 6, 7],
         "/{api_version}/pedidos/": [1, 3, 3.5, 4, 5, 6, 7],
         //pendentes
         "/{api_version}/pendentes/:id": [1, 3, 3.5, 4, 5, 6, 7],
@@ -189,9 +190,13 @@ module.exports = {
         "/{api_version}/autosEliminacao/": [5, 6, 7],
         //chaves
         "/{api_version}/chaves/": -1,
+        //classes
+        "/{api_version}/classes": 4,
         //colaboracoes
         "/{api_version}/colaboracoes/importar": [3.5, 4, 5, 6, 7],
         "/{api_version}/colaboracoes/": [3.5, 4, 5, 6, 7],
+        //contador
+        "/{api_version}/contador": 5,
         //documentacaoCientifica
         "/{api_version}/documentacaoCientifica/importar": [3.5, 4, 5, 6, 7],
         "/{api_version}/documentacaoCientifica/": [3.5, 4, 5, 6, 7],
@@ -246,8 +251,8 @@ module.exports = {
         "/{api_version}/chaves/:id/atualizar": 7,
         //colaboracoes
         "/{api_version}/colaboracoes/:id/": [3.5, 4, 5, 6, 7],
-        //contadores
-        "/{api_version}/contador/:codigo": 4,
+        //contador
+        "/{api_version}/contador/:codigo": 5,
         //documentacaoCientifica
         "/{api_version}/documentacaoCientifica/:id": [3.5, 4, 5, 6, 7],
         //documentacaoApoio
